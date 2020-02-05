@@ -56,7 +56,7 @@ export default class Home extends Component {
         return (
             <div>
                <Child list={this.state.list} />
-               <Button type="primary"><Link to="/detail/123">第四次修改的跳转</Link></Button>
+               <Button type="primary"><Link to="/detail/123">第五次修改的跳转</Link></Button>
             </div>
             
         )
