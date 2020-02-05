@@ -56,6 +56,7 @@ export default class Home extends Component {
         return (
             <div>
                <Child list={this.state.list} />
+               <Button type="primary"><Link to="/detail/123">跳转</Link></Button>
             </div>
             
         )
