@@ -19,7 +19,7 @@ export default class Detail extends Component {
     render() {
         return (
             <div>
-                {this.state.domain}
+                {this.state.domain}我跳转过来啦
             </div>
         )
     }
